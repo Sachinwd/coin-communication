@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/', // <--- ADD THIS LINE (Fixes "404 not found" for CSS)
 })
