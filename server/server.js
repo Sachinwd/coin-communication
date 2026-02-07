@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Database Connection
 // If you don't have a Mongo URL, use: 'mongodb://127.0.0.1:27017/coinDB' for local
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/coinDB';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://Sachin:Sachinnegi737@cluster0.vo76gxv.mongodb.net/?appName=Cluster0';
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log('✅ MongoDB Connected'))
