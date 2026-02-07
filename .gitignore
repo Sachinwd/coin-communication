@@ -1,0 +1,20 @@
+# --- Dependencies (Too big, we install these later) ---
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# --- Security (NEVER upload keys/passwords) ---
+.env
+.env.local
+client/.env
+server/.env
+
+# --- Production Build (Generated automatically) ---
+dist/
+build/
+client/dist/
+server/dist/
+
+# --- System Files (Junk files from Mac/Windows) ---
+.DS_Store
+Thumbs.db
